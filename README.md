@@ -6,9 +6,11 @@
 ## How to use?
 ----
 So here's a basic installation that you need
+** NOTES: You need to create _.env_ file before running the file **
 
 * Clone this repo
 * Run >**npm install**< in the root folder
+* create **.env** file by rename **.env.example** file or copy and create a new file, set DEBUG_MODE to true and **debug** helpers will showing logs in console
 * After installation successful, you might see log message on the console, type localhost:3000 on your browser
 * Done, you'll see the starting template app with the default routes
 
