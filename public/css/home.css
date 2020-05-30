@@ -1,0 +1,25 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: #F5D6B4;
+}
+
+.content__heading {
+  text-align: center;
+}
+.content__heading > h1 {
+  margin: 0 0 10px 0;
+  font-size: 58px;
+  color: #4C280C;
+}
+
+.content__heading > h1 > span {
+  color: #694127;
+}
+
+.content__body {
+  margin-top: 1em;
+}
+.content__body > h4 {
+  margin: 0 0 10px 0;
+}
