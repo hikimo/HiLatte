@@ -1,3 +1,4 @@
+const os = require('os')
 const express = require('express')
 const path = require('path')
 const app = express()
@@ -23,7 +24,7 @@ app.use(express.urlencoded({extended: false}))
 app.use(express.static(path.join(__dirname, 'public')))
 
 // API Router implement
-app.use('/api', testApiRouter)
+app.use('/api/v1/test', testApiRouter)
 
 // Router implement
 app.use('/', testRouter)
@@ -31,4 +32,4 @@ app.use(defaultRouter)
 
 
 // Run server
-app.listen(port, () => console.log(`Server listen to port ${port}`))
+app.listen(port, () => console.log(`Successfully starting the server at localhost:${port}`))
